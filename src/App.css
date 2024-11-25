@@ -1,38 +1,347 @@
+.Header{
+    text-align: center;
+    font-style: inherit;
+}
+/* .App{
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-qUB7jVaFxQxqKlt1IJJFaiETVACSWE8vMQ&s);
+    background-size: 'cover';
+        background-Position: 'center';
+        height: '100vh'
+} */
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-qUB7jVaFxQxqKlt1IJJFaiETVACSWE8vMQ&s'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.Navbar{
+    background-color: blue;
+    color: aqua;
+    margin: auto;
+    width: 100%;
+    border: 5px solid blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+.Dashboard{
+    text-align: center;
+    padding: 50px;
+}
+/* Styling for the Register component */
+.register-container {
+    text-align: center;
+    padding: 50px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    font-size: 1.1em;
+    color: #555;
+    text-align: left;
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #004080;
+  }
+ /* car rentall */
+ .car-rental {
+    padding: 20px;
+  }
+  
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .car-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .car-card h3 {
+    margin: 10px 0;
+  }
+  
+  .car-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .car-card button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .car-card button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* airport taxis  */
+  .airport-taxis {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #2d3e50;
+  }
+  
+  h2 {
+    color: #004d7a;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  
+ 
+
+  /*Activities*/
+  .activities {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #2d3e50;
+  }
+  
+  h2 {
+    color: #004d7a;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+
+
+
+  /* General Reset */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* App Container */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NavBar */
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+/* Pages */
+.page {
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Forms */
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 400px;
+}
+
+form input, form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
   color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page {
+    max-width: 95%;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 0.5rem 0;
   }
 }

@@ -1,0 +1,156 @@
+{
+  "businessInfo": {
+    "name": "Jozz Tembo Tours and Safari",
+    "description": "Experience the adventure of a lifetime with Jozz Tembo Tours and Safari. From thrilling game drives to serene nature walks, we bring you closer to Africa's breathtaking beauty.",
+    "contact": {
+      "phone": "+254722266955",
+      "email": "info@jozztembo.com",
+      "address": "Safari Lane, Adventure City, Country"
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/jozztembotours",
+      "instagram": "https://instagram.com/jozztembosafari",
+      "twitter": "https://twitter.com/jozztembo"
+    }
+  },
+  "tours": [
+    {
+      "id": "1",
+      "name": "Savannah Adventure",
+      "description": "A guided tour through the sprawling savannah, filled with diverse wildlife and stunning landscapes.",
+      "price": 300,
+      "duration": "3 days",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncvL2OEegeNnTU_0Uin7QBT9C2gw8Iiu759Cz62yjQbmxmNUKKpJKyxfKyoDv_7sq3zI&usqp=CAU"
+    },
+    {
+      "id": "2",
+      "name": "Jungle Explorer",
+      "description": "Explore the dense jungle with our expert guides and spot elusive species in their natural habitat.",
+      "price": 450,
+      "duration": "5 days",
+      "image": "https://www.bigcatsexploration-safaris.com/img/bigcatcub1.jpg"
+    }
+  ],
+  "safaris": [
+    {
+      "id": "1",
+      "name": "Big Five Safari",
+      "description": "Track the legendary Big Five in their natural environment with experienced rangers.",
+      "price": 700,
+      "duration": "7 days",
+      "image": "big_five_safari.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Sunset Safari",
+      "description": "Enjoy a magical evening drive and witness the stunning African sunset.",
+      "price": 200,
+      "duration": "Half-day",
+      "image": "sunset_safari.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Mwangata T.",
+      "message": "An unforgettable experience! The guides were knowledgeable, and the wildlife was spectacular.",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "name": "Ricky A.",
+      "message": "The sunset safari was breathtaking. Highly recommend Jozz Tembo Tours!",
+      "rating": 4.5
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "Toyota Corolla",
+      "price": 50,
+      "imageUrl": "https://image-cdn.beforward.jp/large/202010/2061281/BH530352_ab1325.JPG",
+      "description": "A comfortable 4-door sedan perfect for city drives.",
+      "availability": true
+    },
+    {
+      "id": "2",
+      "name": "Ford Mustang",
+      "price": 100,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmM_GF3jrClUirE7N0z5-WCeytsJ4bswdAg&s",
+      "description": "A powerful sports car for those who love speed.",
+      "availability": true
+    },
+    {
+      "id": "c98a",
+      "name": "Cruiser",
+      "price": 97,
+      "description": "safari Best car",
+      "availability": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMr60Ymd2hMNG4u-IQVyn-3gaVtNOdVUq0BHzYj8twb1lKziWc9HnyJqMsnVytJUImK1I&usqp=CAU"
+    },
+    {
+      "id": "c8be",
+      "name": "Cruiser",
+      "price": 125,
+      "description": "Good car for safari and also well managed by the company , the drive how is in charge of this car is Ricky Arnold ",
+      "availability": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53SnsN_MCbWYRFgYI8G8Tlhv-lPROLVbMLQ&s"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "af22",
+      "pickupLocation": "malindi",
+      "dropLocation": "watamu",
+      "passengerCount": 1
+    },
+    {
+      "id": "a45f",
+      "pickupLocation": "malindi",
+      "dropLocation": "watamu",
+      "passengerCount": 1
+    },
+    {
+      "id": "19fa",
+      "pickupLocation": "malindi",
+      "dropLocation": "watamu",
+      "passengerCount": 1
+    },
+    {
+      "id": "ebe6",
+      "pickupLocation": "malindi",
+      "dropLocation": "watamu",
+      "passengerCount": 1
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "name": "Safari Tour",
+      "description": "Explore the beautiful wildlife of Kenya with our guided safari tours.",
+      "price": 150,
+      "duration": "Full Day"
+    },
+    {
+      "id": "2",
+      "name": "Snorkeling",
+      "description": "Discover the vibrant marine life in Watamu Marine National Park.",
+      "price": 50,
+      "duration": "Half Day"
+    },
+    {
+      "id": "3",
+      "name": "Cultural Tour",
+      "description": "Visit local villages and immerse yourself in Kenyan culture.",
+      "price": 30,
+      "duration": "Half Day"
+    },
+    {
+      "id": "4",
+      "name": "Fishing Trip",
+      "description": "Experience deep-sea fishing along the Indian Ocean coast.",
+      "price": 100,
+      "duration": "Full Day"
+    }
+  ]
+}
